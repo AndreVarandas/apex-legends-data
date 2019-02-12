@@ -3,6 +3,13 @@ const mongoose = require('mongoose')
 // Define schema
 const Schema = mongoose.Schema
 
+const AbilitySchema = new Schema({
+  name: String,
+  type: String,
+  description: String,
+  media: String,
+})
+
 /**
  * Defines a Legend Schema
  */
@@ -22,14 +29,7 @@ const LegendSchema = new Schema({
     profile: String,
     wallpaper: String,
   },
-  abilities: [
-    {
-      name: String,
-      type: String,
-      description: String,
-      media: String,
-    },
-  ],
+  abilities: [AbilitySchema],
 })
 
 // Compile model from schema and export it
