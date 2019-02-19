@@ -1,8 +1,8 @@
 ## Apex Legends Data
 
-[Base Endpoint https://apex-legends-api.herokuapp.com](https://apex-legends-api.herokuapp.com) - It's running on Heroku, so it can take some time to boot.
-
 This is a simple API to serve basic data about Apex Legends, available in game.
+
+[Base Endpoint https://apex-legends-api.herokuapp.com](https://apex-legends-api.herokuapp.com) - It's running on Heroku, so it can take some time to boot.
 
 ### Endpoints
 
