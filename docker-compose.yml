@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  mongodb:
+    container_name: ${DATABASE_CONTAINER_NAME}
+    image: mongo
+
+  mongodb_seed:
+    container_name: ${SEED_CONTAINER_NAME}
+    build: ./mongodb-seed
+    depends_on:
+      - mongodb
+
+  webapp:
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+    container_name: ${CONTAINER_NAME}
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=${MONGO_URI}
+

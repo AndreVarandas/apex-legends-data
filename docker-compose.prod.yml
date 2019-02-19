@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  webapp:
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+    container_name: ${CONTAINER_NAME}
+    build: .
+    environment:
+      - MONGO_URI: ${MONGO_URI}
+      - VIRTUAL_PORT: ${VIRTUAL_PORT}
+      - VIRTUAL_HOST: ${DOMAINS}
+      - LETSENCRYPT_HOST: ${DOMAINS}
+      - LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}

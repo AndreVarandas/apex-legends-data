@@ -1,0 +1,880 @@
+[
+  {
+    "media": "",
+    "name": "Alternator SMG",
+    "class": "SMG",
+    "description": "Twin barrel full auto SMG",
+    "fireModes": [
+      {
+        "type": "Auto"
+      }
+    ],
+    "ammo": "Light",
+    "reload": {
+      "loaded": 1.9,
+      "empty": 1.8
+    },
+    "magsize": 16,
+    "damage": {
+      "body": 13,
+      "head": 19,
+      "multiplier": 1.5,
+      "maxHeadshotRange": 40,
+      "dps": {
+        "body": 139,
+        "head": 203
+      }
+    },
+    "rpm": 640,
+    "recoil": [
+      {
+        "type": "Vertical"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "R-99 SMG",
+    "class": "SMG",
+    "description": "Rapid-fire automatic SMG",
+    "fireModes": [
+      {
+        "type": "Auto"
+      }
+    ],
+    "ammo": "Light",
+    "reload": {
+      "loaded": 1.8,
+      "empty": 2.45
+    },
+    "magsize": 18,
+    "damage": {
+      "body": 12,
+      "head": 18,
+      "multiplier": 1.5,
+      "maxHeadshotRange": 40,
+      "dps": {
+        "body": 216,
+        "head": 324
+      }
+    },
+    "rpm": 1080,
+    "recoil": [
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "Curve Right"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Prowler Burst PDW",
+    "class": "SMG",
+    "description": "5 round burst SMG",
+    "fireModes": [
+      {
+        "type": "Burst"
+      },
+      {
+        "type": "Auto with mod"
+      }
+    ],
+    "ammo": "Heavy",
+    "reload": {
+      "loaded": 2,
+      "empty": 2.6
+    },
+    "magsize": 20,
+    "damage": {
+      "body": 14,
+      "head": 21,
+      "multiplier": 1.5,
+      "maxHeadshotRange": 40,
+      "dps": {
+        "body": 186,
+        "head": 279
+      }
+    },
+    "rpm": 800,
+    "recoil": [
+      {
+        "type": "Kick"
+      },
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "Curve Left"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Hop-Up"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "R-301",
+    "class": "AR",
+    "description": "Full auto and high accuracy",
+    "fireModes": [
+      {
+        "type": "Auto"
+      },
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Light",
+    "reload": {
+      "loaded": 2.4,
+      "empty": 3.2
+    },
+    "magsize": 18,
+    "damage": {
+      "body": 14,
+      "head": 28,
+      "multiplier": 2,
+      "maxHeadshotRange": 300,
+      "dps": {
+        "body": 186,
+        "head": 336
+      }
+    },
+    "rpm": 720,
+    "recoil": [
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "Curve Right"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "VK-47 Flatline",
+    "class": "AR",
+    "description": "Full auto with a punch",
+    "fireModes": [
+      {
+        "type": "Auto"
+      },
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Heavy",
+    "reload": {
+      "loaded": 2.4,
+      "empty": 3.1
+    },
+    "magsize": 20,
+    "damage": {
+      "body": 16,
+      "head": 32,
+      "multiplier": 2,
+      "maxHeadshotRange": 300,
+      "dps": {
+        "body": 160,
+        "head": 320
+      }
+    },
+    "rpm": 600,
+    "recoil": [
+      {
+        "type": "Diagonal upper left"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Hemlock Burst AR",
+    "class": "AR",
+    "description": "3 round burst AR",
+    "fireModes": [
+      {
+        "type": "Burst"
+      },
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Heavy",
+    "reload": {
+      "loaded": 2.4,
+      "empty": 2.8
+    },
+    "magsize": 18,
+    "damage": {
+      "body": 18,
+      "head": 36,
+      "multiplier": 2,
+      "maxHeadshotRange": 300,
+      "dps": {
+        "body": 144,
+        "head": 288
+      }
+    },
+    "rpm": 490,
+    "recoil": [
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "Curve Left"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "M600 Spitfire",
+    "class": "LMG",
+    "description": "Full auto LMG",
+    "fireModes": [
+      {
+        "type": "Auto"
+      }
+    ],
+    "ammo": "Heavy",
+    "reload": {
+      "loaded": 2.8,
+      "empty": 3.33
+    },
+    "magsize": 35,
+    "damage": {
+      "body": 20,
+      "head": 40,
+      "multiplier": 2,
+      "maxHeadshotRange": 60,
+      "dps": {
+        "body": 180,
+        "head": 360
+      }
+    },
+    "rpm": 512,
+    "recoil": [
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "ZigZag"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Devotion LMG",
+    "class": "LMG",
+    "description": "Full auto energy LMG",
+    "fireModes": [
+      {
+        "type": "Auto"
+      }
+    ],
+    "ammo": "Energy",
+    "reload": {
+      "loaded": 2.8,
+      "empty": 3.63
+    },
+    "magsize": 44,
+    "damage": {
+      "body": 17,
+      "head": 34,
+      "multiplier": 2,
+      "maxHeadshotRange": 60,
+      "dps": {
+        "body": 255,
+        "head": 510
+      }
+    },
+    "rpm": 900,
+    "recoil": [
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "Curve Left"
+      },
+      {
+        "type": "Curve Right"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Hop-Up"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "G7 Scout",
+    "class": "SR",
+    "description": "Semi auto light SR",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Light",
+    "reload": {
+      "loaded": 2.4,
+      "empty": 3
+    },
+    "magsize": 10,
+    "damage": {
+      "body": 30,
+      "head": 60,
+      "multiplier": 2,
+      "maxHeadshotRange": 750,
+      "dps": {
+        "body": 120,
+        "head": 240
+      }
+    },
+    "rpm": 0,
+    "recoil": [
+      {
+        "type": "Vertical"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Longbow DMR",
+    "class": "SR",
+    "description": "Semi-auto SR",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Heavy",
+    "reload": {
+      "loaded": 2.66,
+      "empty": 3.66
+    },
+    "magsize": 5,
+    "damage": {
+      "body": 55,
+      "head": 110,
+      "multiplier": 2,
+      "maxHeadshotRange": 750,
+      "dps": {
+        "body": 55,
+        "head": 110
+      }
+    },
+    "rpm": 86,
+    "recoil": [
+      {
+        "type": "Curve Left"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "All"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Triple Take",
+    "class": "SR",
+    "description": "Triple Barrel SR",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Energy",
+    "reload": {
+      "loaded": 2.6,
+      "empty": 3.6
+    },
+    "magsize": 5,
+    "damage": {
+      "body": 23,
+      "head": 46,
+      "multiplier": 2,
+      "maxHeadshotRange": 750,
+      "dps": {
+        "body": 69,
+        "head": 138
+      }
+    },
+    "rpm": 88,
+    "recoil": [
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "Curve Left"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Hop-Up"
+      },
+      {
+        "type": "Optic"
+      },
+      {
+        "type": "Stock"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Kraber .50-cal SR",
+    "class": "SR",
+    "description": "Powerful bolt-action SR",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Kraber",
+    "reload": {
+      "loaded": 3.2,
+      "empty": 4.3
+    },
+    "magsize": 4,
+    "damage": {
+      "body": 125,
+      "head": 250,
+      "multiplier": 2,
+      "maxHeadshotRange": 750,
+      "dps": {
+        "body": 125,
+        "head": 250
+      }
+    },
+    "rpm": 36,
+    "recoil": [
+      {
+        "type": "Minor"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "None"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Kraber .50-cal SR",
+    "class": "SR",
+    "description": "Powerful bolt-action SR",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Kraber",
+    "reload": {
+      "loaded": 3.2,
+      "empty": 4.3
+    },
+    "magsize": 4,
+    "damage": {
+      "body": 125,
+      "head": 250,
+      "multiplier": 2,
+      "maxHeadshotRange": 750,
+      "dps": {
+        "body": 125,
+        "head": 250
+      }
+    },
+    "rpm": 36,
+    "recoil": [
+      {
+        "type": "Minor"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "None"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Peacekeeper",
+    "class": "Shotgun",
+    "description": "Lever-action shotgun",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Shell",
+    "reload": {
+      "loaded": 2.5,
+      "empty": 3.5
+    },
+    "magsize": 6,
+    "damage": {
+      "body": 10,
+      "head": 15,
+      "multiplier": 1.5,
+      "maxHeadshotRange": 100,
+      "dps": {
+        "body": 110,
+        "head": 165
+      }
+    },
+    "rpm": 58,
+    "recoil": [
+      {
+        "type": "Negligible"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Hop-Up"
+      },
+      {
+        "type": "Optic"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Eva-8 AUTO",
+    "class": "Shotgun",
+    "description": "Full-auto shotgun",
+    "fireModes": [
+      {
+        "type": "Auto"
+      }
+    ],
+    "ammo": "Shell",
+    "reload": {
+      "loaded": 2.5,
+      "empty": 3.5
+    },
+    "magsize": 8,
+    "damage": {
+      "body": 7,
+      "head": 10,
+      "multiplier": 1.5,
+      "maxHeadshotRange": 100,
+      "dps": {
+        "body": 126,
+        "head": 180
+      }
+    },
+    "rpm": 128,
+    "recoil": [
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "Minor curve left"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Optic"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Mozambique SG",
+    "class": "Shotgun",
+    "description": "Triple-barrel SG Pistol",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Shell",
+    "reload": {
+      "loaded": 2.1,
+      "empty": 2.6
+    },
+    "magsize": 3,
+    "damage": {
+      "body": 15,
+      "head": 22,
+      "multiplier": 1.5,
+      "maxHeadshotRange": 40,
+      "dps": {
+        "body": 135,
+        "head": 198
+      }
+    },
+    "rpm": 180,
+    "recoil": [
+      {
+        "type": "Negligible"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Optic"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "RE-45 AUTO",
+    "class": "Pistol",
+    "description": "Full-auto Pistol",
+    "fireModes": [
+      {
+        "type": "Auto"
+      }
+    ],
+    "ammo": "Light",
+    "reload": {
+      "loaded": 1.74,
+      "empty": 2.12
+    },
+    "magsize": 15,
+    "damage": {
+      "body": 11,
+      "head": 16,
+      "multiplier": 1.5,
+      "maxHeadshotRange": 40,
+      "dps": {
+        "body": 132,
+        "head": 192
+      }
+    },
+    "rpm": 750,
+    "recoil": [
+      {
+        "type": "Vertical"
+      },
+      {
+        "type": "Hard curve right"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "P2020",
+    "class": "Pistol",
+    "description": "Semi-auto Pistol",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Light",
+    "reload": {
+      "loaded": 1.25,
+      "empty": 1.25
+    },
+    "magsize": 10,
+    "damage": {
+      "body": 12,
+      "head": 18,
+      "multiplier": 1.5,
+      "maxHeadshotRange": 40,
+      "dps": {
+        "body": 84,
+        "head": 126
+      }
+    },
+    "rpm": 430,
+    "recoil": [
+      {
+        "type": "Vertical"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Barrel"
+      },
+      {
+        "type": "Optic"
+      }
+    ]
+  },
+  {
+    "media": "",
+    "name": "Wingman",
+    "class": "Pistol",
+    "description": "High Powered Revolver",
+    "fireModes": [
+      {
+        "type": "Single"
+      }
+    ],
+    "ammo": "Heavy",
+    "reload": {
+      "loaded": 2.1,
+      "empty": 2.1
+    },
+    "magsize": 6,
+    "damage": {
+      "body": 45,
+      "head": 90,
+      "multiplier": 2,
+      "maxHeadshotRange": 250,
+      "dps": {
+        "body": 135,
+        "head": 270
+      }
+    },
+    "rpm": 205,
+    "recoil": [
+      {
+        "type": "Vertical"
+      }
+    ],
+    "attachments": [
+      {
+        "type": "Hop-Up"
+      },
+      {
+        "type": "Mag"
+      },
+      {
+        "type": "Optic"
+      }
+    ]
+  }
+]

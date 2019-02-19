@@ -14,7 +14,21 @@ Base url: https://apex-legends-api.herokuapp.com
 - [`/api/v1/legends?name=bangalore`](https://apex-legends-api.herokuapp.com/api/v1/legends?name=bangalore) - Finds a legend with the name bangalore.
 - [`/api/v1/legends/1`](https://apex-legends-api.herokuapp.com/api/v1/legends/1) - Finds a legend with the number 1.
 
-**Example**
+## Docker support
+
+You can build your own server in three simple steps:
+
+1. Create a `.env` file.
+2. Run `docker-compose up -d`.
+3. Go to your local [http://localhost:3000/api/v1/legends](http://localhost:3000/api/v1/legends).
+
+To create your `.env` file, make a copy of the `.env-example` file or rename it to `.env`. 
+
+And then check it is working [http://localhost:3000/api/v1/legends](http://localhost:3000/api/v1/legends).
+
+---
+
+**Example using Herokuapp endpoints**
 
 Example response from [http://apex-legends-api.herokuapp.com/api/v1/legends?name=WRAITH](http://apex-legends-api.herokuapp.com/api/v1/legends?name=WRAITH)
 
