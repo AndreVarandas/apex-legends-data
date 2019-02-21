@@ -19,7 +19,7 @@ module.exports.all = (req, res) => {
    * Get data from the Cache if available
    */
   const cached = cache.get(`legends_${query.name}`)
-  if (Boolean(cached)) {
+  if (cached) {
     return res.status(200).json(cached)
   }
 
